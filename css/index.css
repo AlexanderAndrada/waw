@@ -1,0 +1,34 @@
+.center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+}
+
+._access-icon-waw {
+    border-radius: 50px;
+    position: var(--_access-icon-position, fixed);
+    height: var(--_access-icon-height, 50px);
+    bottom: var(--_access-icon-bottom, 50px);
+    top: var(--_access-icon-top, unset);
+    left: var(--_access-icon-left, unset);
+    right: var(--_access-icon-right, 10px);
+    z-index: var(--_access-icon-z-index, 9999);
+    font: var(--_access-icon-font, 40px / 45px "Material Icons");
+    background-size: contain;
+    cursor: pointer;
+    transition-duration: .35s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+._access-icon {
+    display: none !important;
+}
